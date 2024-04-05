@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME WEBSITE</title>
+</head>
+<body style="font-family: 'Arial', sans-serif; background: linear-gradient(to right, #64b3f4, #b8dbf0); color: #333; margin: 0; padding: 0;">
+
+    <div style="max-width: 800px; margin: 20px auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <h1 style="color: #007bff; text-align: center; font-family: 'Times New Roman', serif;">A website to get memes using Flask</h1>
+        <p style="margin-bottom: 10px;">Meme gets refreshed in 30 seconds</p>
+        <p><img src="{{ meme_pic }}" style="max-width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(20, 20, 130, 0.1); align-items: center;"></p>
+        <p style="margin-top: 10px; font-style: italic; color: #900e60;">Current subreddit: {{ subreddit }}</p>
+    </div>
+
+</body>
+</html>
+
